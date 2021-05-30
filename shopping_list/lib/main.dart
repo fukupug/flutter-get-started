@@ -87,7 +87,7 @@ class ShoppingListItem extends StatelessWidget {
       },
       leading: CircleAvatar(
         backgroundColor: _getColor(context),
-        child: Text(product.name[0]),
+        child: Text(product.name),
       ),
       title: Text(product.name, style: _getTextStyle(context)),
     );
